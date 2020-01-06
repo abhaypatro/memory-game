@@ -25,6 +25,7 @@ $(".btn").click(function() {
         $("body").removeClass("game-over");
       }, 200);
       $("h1").text("Game Over, Press Any Key to Restart");
+      startOver();
     }
   }
 
@@ -63,4 +64,13 @@ function checkAnswer(index) {
     return true;
     else
     return false;
+}
+function startOver()
+{
+  level=0;
+  gamepattern=[];
+  userClickedPattern=[];
+  $(document).keypress(function(event){
+    nextSequence();
+  })
 }
