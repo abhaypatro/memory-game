@@ -1,3 +1,3 @@
 # memory-game
 A simple memory game made using JavaScript.
-### under development
+###### Access the game here: https://abhaypatro.github.io/memory-game/
